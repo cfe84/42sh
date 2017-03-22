@@ -99,6 +99,7 @@ clean :
 	-cd libs && make distclean && cd -
 	-cd expansion && rm -f *~ so_locations *.o && cd -
 	-cd builtins && rm -f *~ so_locations *.o && cd -
+	-cd signal && rm -f *~ so_locations *.o && cd -
 	-rm -f *~ so_locations *.o
 	-rm -f builtins/*~ builtins/*.o
 
