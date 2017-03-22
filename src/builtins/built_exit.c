@@ -12,10 +12,8 @@
 
 void	built_exit(char **command, struct s_glob *g)
 {
-  char	*cmd;
   int	n = 0;
 
-  cmd = command[0];
   if (command[1] != NULL)
     n = atoi(command[1]);
   destroy_glob(g);

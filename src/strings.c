@@ -8,6 +8,7 @@
 ** Last update Mon Jan 17 19:46:56 2005 feval_c
 */
 
+#include <stdlib.h>
 #include "strings.h"
 #include "mystrcat.h"
 

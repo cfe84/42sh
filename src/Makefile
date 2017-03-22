@@ -85,7 +85,7 @@ aff :	clean
 	make "FLAGS=-DAFFTREE"
 
 debug :
-	gcc -W -Wall -Werror -ansi -g *.c -o 42sh
+	gcc -W -Wall -Werror -std=gnu99 -g *.c -o 42sh
 
 $(EXEC) : $(OUTPUT)
 	cd libs && make && cd ..

@@ -151,7 +151,7 @@ int			redirection(struct s_parse *p,
    char			*num = NULL;
 
    if (g->retval)
-      return NULL;
+      return 0;
    if (curt(p) == WORD && is_num(cur(p)) && curr(p))
    {
       num = strdup(cur(p));
@@ -175,7 +175,7 @@ static int	element(struct s_parse *p,
 			char **res)
 {
    if (g->retval)
-      return NULL;
+      return 0;
    if (cur(p) == NULL || !strcmp(cur(p), "function") || lat(p) == L_PAR)
       return EL_STOP;
    if (curt(p) == WORD && (!is_num(cur(p)) || !is_redir(lat(p)) || !curr(p)))

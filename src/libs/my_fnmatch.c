@@ -102,7 +102,7 @@ static int	parse(const char *pat, int p, const char *str, int s)
 
 int my_fnmatch(const char *pattern, const char *string, int flags)
 {
-  if (pattern == NULL || string == NULL)
+  if (pattern == NULL || string == NULL || flags == 424242)
     return 1;
   flags = 0;
   return parse(pattern, 0, string, 0) ? 0 : MY_FNM_NOMATCH;

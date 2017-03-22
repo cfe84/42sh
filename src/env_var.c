@@ -8,6 +8,7 @@
 ** Last update Tue Jan 18 20:34:25 2005 anass kadiri
 */
 
+#include <string.h>
 #include "env_var.h"
 
 /*

@@ -11,6 +11,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <sys/wait.h>
+#include <string.h>
 #include "strings.h"
 #include "job.h"
 #include "global.h"

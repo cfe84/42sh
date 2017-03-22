@@ -8,6 +8,7 @@
 ** Last update Sun Jan 16 19:18:58 2005 charles feval
 */
 
+#include <string.h>
 #include <strings.h>
 #include <stdlib.h>
 #include "mystrcat.h"
