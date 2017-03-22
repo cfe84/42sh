@@ -1,0 +1,6 @@
+#1025
+#low var and print high one
+
+foo='acu'
+echo $FOO
+echo $foo

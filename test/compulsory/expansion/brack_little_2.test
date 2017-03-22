@@ -1,0 +1,4 @@
+#102
+#Crochets : Intervalle reduit a un caractere
+
+ls /[u-u]

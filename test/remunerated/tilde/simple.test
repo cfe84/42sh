@@ -1,0 +1,4 @@
+#1016
+#simple tilde expansion
+
+echo ~

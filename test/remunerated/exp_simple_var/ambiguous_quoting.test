@@ -1,0 +1,5 @@
+#122
+#Ambiguous quoting
+
+unset bar
+foo="${bar-'}'}"

@@ -1,0 +1,4 @@
+#1038
+#expr inside expr
+
+echo $(($((1+1))))

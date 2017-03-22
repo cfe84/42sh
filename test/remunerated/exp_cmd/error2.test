@@ -1,0 +1,5 @@
+#1058
+#unmatched ` caracter
+
+var=`echo toto
+echo $var

@@ -1,0 +1,931 @@
+2005-01-14  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* test/next_id, test/remunerated/exp_simple_var/ambiguous_quoting.test, test/remunerated/exp_simple_var/ambiguous_quoting_4.test, test/remunerated/exp_simple_var/ambiguous_star_quoting.test, test/remunerated/exp_simple_var/ambiguous_star.test, test/checker.pl:
+	*** empty log message ***
+
+2005-01-14  gilles durget  <durget_g@frunalia.epita.fr>
+
+	* src/parse_rules.c, grammar.txt: *** empty log message ***
+
+2005-01-14  charles feval  <feval_c@frunalia.epita.fr>
+
+	* src/parse_rules.c: *** empty log message ***
+
+2005-01-14  gilles durget  <durget_g@frunalia.epita.fr>
+
+	* src/parse_cmd.c: *** empty log message ***
+
+2005-01-14  charles feval  <feval_c@frunalia.epita.fr>
+
+	* src/parse_rules.c: *** empty log message ***
+
+2005-01-14  gilles durget  <durget_g@frunalia.epita.fr>
+
+	* src/ast.h, src/defines.h, src/is.h, src/parser.h, src/display.c, src/is.c, src/lexer.c, src/parse_lists.c, src/parser.c, src/prompt.c, src/Makefile, src/is2.c, src/parse_cmd.c, src/parse_rules.c:
+	*** empty log message ***
+
+2005-01-13  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* test/next_id, test/checker.pl, src/parser.c:
+	*** empty log message ***
+
+2005-01-13  charles feval  <feval_c@frunalia.epita.fr>
+
+	* src/parser.c: *** empty log message ***
+
+2005-01-13  gilles durget  <durget_g@frunalia.epita.fr>
+
+	* src/parser.c: *** empty log message ***
+
+2005-01-13  charles feval  <feval_c@frunalia.epita.fr>
+
+	* src/ast.c: *** empty log message ***
+
+2005-01-13  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* test/checker.pl: *** empty log message ***
+
+2005-01-13  anass kadiri  <kadiri_a@frunalia.epita.fr>
+
+	* test/remunerated/sh_vars/shellopts.test, test/remunerated/sh_vars/oldpwd.test:
+	ok
+
+2005-01-13  gilles durget  <durget_g@frunalia.epita.fr>
+
+	* src/parser.c: *** empty log message ***
+
+2005-01-13  anass kadiri  <kadiri_a@frunalia.epita.fr>
+
+	* test/remunerated/sh_vars/random.test, test/remunerated/sh_vars/uid.test, test/remunerated/sh_vars/pid.test, test/remunerated/sh_vars/interg.test:
+	ok
+
+2005-01-13  gilles durget  <durget_g@frunalia.epita.fr>
+
+	* src/parser.c: *** empty log message ***
+
+2005-01-13  charles feval  <feval_c@frunalia.epita.fr>
+
+	* src/parser.c: *** empty log message ***
+
+2005-01-13  gilles durget  <durget_g@frunalia.epita.fr>
+
+	* src/parser.c: *** empty log message ***
+
+2005-01-13  charles feval  <feval_c@frunalia.epita.fr>
+
+	* src/ast.c, src/ast.h: Destroying functions
+
+2005-01-13  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* test/compulsory/quoting/backquoting_err.test:
+	*** empty log message ***
+
+2005-01-13  anass kadiri  <kadiri_a@frunalia.epita.fr>
+
+	* test/remunerated/subshell/composite.test, test/remunerated/subshell/simple.test:
+	ok
+
+2005-01-13  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* test/compulsory/quoting/back_and_double.test:
+	*** empty log message ***
+
+2005-01-13  gilles durget  <durget_g@frunalia.epita.fr>
+
+	* src/parser.c: *** empty log message ***
+
+2005-01-13  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* test/remunerated/exp_simple_var/ambiguous_quoting_2.test, test/remunerated/exp_simple_var/ambiguous_quoting_3.test:
+	Modification du code envoye
+
+2005-01-13  anass kadiri  <kadiri_a@frunalia.epita.fr>
+
+	* test/remunerated/exp_path/simple.test: ok
+
+2005-01-13  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* test/remunerated/exp_simple_var/ambiguous_quoting_2.test, test/remunerated/exp_simple_var/ambiguous_quoting.test, src/error.c, src/error.h, src/lexer.c, src/parser.c:
+	*** empty log message ***
+
+2005-01-13  anass kadiri  <kadiri_a@frunalia.epita.fr>
+
+	* test/remunerated/exp_cmd/error2.test, test/remunerated/exp_cmd/error1.test, test/remunerated/exp_cmd/esc_quote.test, test/remunerated/exp_cmd/cmd_in_cmd2.test, test/remunerated/exp_cmd/cmd_in_cmd.test, test/remunerated/exp_cmd/dollar_exp.test, test/remunerated/exp_cmd/simple.test:
+	ok
+
+2005-01-13  gilles durget  <durget_g@frunalia.epita.fr>
+
+	* src/parser.c, src/defines.h: *** empty log message ***
+
+2005-01-13  charles feval  <feval_c@frunalia.epita.fr>
+
+	* src/parser.c: *** empty log message ***
+
+2005-01-13  gilles durget  <durget_g@frunalia.epita.fr>
+
+	* src/parser.c, src/defines.h, src/error.c: *** empty log message ***
+
+2005-01-13  charles feval  <feval_c@frunalia.epita.fr>
+
+	* src/parser.c: *** empty log message ***
+
+2005-01-13  gilles durget  <durget_g@frunalia.epita.fr>
+
+	* src/defines.h, src/error.c, src/parser.c: *** empty log message ***
+
+2005-01-13  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* test/next_id, test/compulsory/pipe/pipe_unexpected.test:
+	*** empty log message ***
+
+	* test/compulsory/execcmd/neg_and.test: Changing the ID
+
+	* test/compulsory/execcmd/neg_and.test: *** empty log message ***
+
+2005-01-13  anass kadiri  <kadiri_a@frunalia.epita.fr>
+
+	* test/remunerated/exp_arith_adv/mult_omission.test: ok
+
+	* test/remunerated/exp_arith_adv/mult_omission.test:
+	oCVS: ----------------------------------------------------------------------
+
+2005-01-13  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* test/compulsory/pipe/dblpipe.test: *** empty log message ***
+
+2005-01-13  anass kadiri  <kadiri_a@frunalia.epita.fr>
+
+	* test/remunerated/exp_arith_adv/mm.test: ok
+
+2005-01-13  gilles durget  <durget_g@frunalia.epita.fr>
+
+	* src/defines.h, src/error.c, src/parser.c: *** empty log message ***
+
+2005-01-13  charles feval  <feval_c@frunalia.epita.fr>
+
+	* src/defines.h, src/error.c, src/parser.c: *** empty log message ***
+
+2005-01-13  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* test/compulsory/plenty_semicolons.test, test/compulsory/pipe/plenty_pipes.test:
+	*** empty log message ***
+
+2005-01-13  anass kadiri  <kadiri_a@frunalia.epita.fr>
+
+	* test/remunerated/exp_arith_adv/pp.test: ok
+
+2005-01-13  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* test/compulsory/execcmd/plenty_ands.test: *** empty log message ***
+
+2005-01-13  charles feval  <feval_c@frunalia.epita.fr>
+
+	* src/error.c: *** empty log message ***
+
+2005-01-13  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* test/compulsory/pipe/triple_pipe.test: *** empty log message ***
+
+2005-01-13  gilles durget  <durget_g@frunalia.epita.fr>
+
+	* src/parser.c: *** empty log message ***
+
+2005-01-13  charles feval  <feval_c@frunalia.epita.fr>
+
+	* src/defines.h, src/error.c, src/parser.c: *** empty log message ***
+
+2005-01-13  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* test/compulsory/execcmd/simple_and_red.test, test/compulsory/execcmd/simple_and_red_2.test:
+	*** empty log message ***
+
+2005-01-13  anass kadiri  <kadiri_a@frunalia.epita.fr>
+
+	* test/remunerated/exp_arith_simp/binary_comp.test:
+	okCVS: ----------------------------------------------------------------------
+
+2005-01-13  gilles durget  <durget_g@frunalia.epita.fr>
+
+	* src/error.c, src/is.c, src/lexer.c, src/parser.c, src/defines.h:
+	*** empty log message ***
+
+2005-01-13  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* test/compulsory/execcmd/simple_and_red.test:
+	*** empty log message ***
+
+2005-01-13  anass kadiri  <kadiri_a@frunalia.epita.fr>
+
+	* test/remunerated/exp_arith_simp/negat.test: ok
+
+2005-01-13  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* test/compulsory/mult_semicolon.test, test/compulsory/expansion/misc_quest_star.test, test/compulsory/expansion/perverse_star_brackets.test, test/compulsory/beg_semicolon.test:
+	*** empty log message ***
+
+2005-01-13  anass kadiri  <kadiri_a@frunalia.epita.fr>
+
+	* test/remunerated/exp_arith_simp/or.test, test/remunerated/exp_arith_simp/and.test, test/remunerated/exp_arith_simp/binary_xor.test, test/remunerated/exp_arith_simp/binary_or.test, test/remunerated/exp_arith_simp/binary_and.test, test/remunerated/exp_arith_simp/expo.test:
+	ok
+
+2005-01-13  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* test/next_id: *** empty log message ***
+
+2005-01-13  anass kadiri  <kadiri_a@frunalia.epita.fr>
+
+	* test/remunerated/exp_arith_simp/div.test: ok
+
+2005-01-13  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* test/compulsory/expansion/brackets_neg_neg.test:
+	*** empty log message ***
+
+2005-01-13  anass kadiri  <kadiri_a@frunalia.epita.fr>
+
+	* test/remunerated/exp_arith_simp/div_by_zero.test, test/remunerated/exp_arith_simp/expr_in_expr.test:
+	ok
+
+2005-01-13  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* test/compulsory/expansion/brackets_neg.test:
+	*** empty log message ***
+
+2005-01-13  anass kadiri  <kadiri_a@frunalia.epita.fr>
+
+	* test/remunerated/exp_arith_simp/expr_in_expr.test, test/remunerated/exp_arith_simp/mult.test:
+	ok
+
+2005-01-13  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* test/remunerated/exp_simple_var/double_dollar.test, test/remunerated/exp_simple_var/dollar_var.test:
+	*** empty log message ***
+
+2005-01-13  anass kadiri  <kadiri_a@frunalia.epita.fr>
+
+	* test/remunerated/exp_arith_simp/simple.test, test/remunerated/exp_arith_simp/var_in_var.test:
+	ok
+
+2005-01-13  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* test/compulsory/expansion/perverse_star_brackets.test:
+	*** empty log message ***
+
+2005-01-13  gilles durget  <durget_g@frunalia.epita.fr>
+
+	* src/defines.h, src/parser.c: *** empty log message ***
+
+2005-01-13  anass kadiri  <kadiri_a@frunalia.epita.fr>
+
+	* test/remunerated/exp_simple_var/dollar_var.test, test/remunerated/exp_simple_var/double_dollar.test, test/remunerated/exp_simple_var/dollar_braces.test, test/remunerated/exp_simple_var/mult_unset.test, test/remunerated/exp_simple_var/two_equal.test, test/remunerated/exp_simple_var/var_rcv_var.test, test/remunerated/exp_simple_var/double_def.test, test/remunerated/exp_simple_var/unset_unset.test, test/remunerated/exp_simple_var/unset.test, test/remunerated/exp_simple_var/min_maj.test, test/remunerated/exp_simple_var/undefined.test, test/remunerated/exp_simple_var/simple.test:
+	ok
+
+2005-01-13  gilles durget  <durget_g@frunalia.epita.fr>
+
+	* src/defines.h, src/display.c, src/error.c, src/is.c, src/is.h, src/lexer.c:
+	*** empty log message ***
+
+2005-01-13  anass kadiri  <kadiri_a@frunalia.epita.fr>
+
+	* test/remunerated/tilde/esc_tilde.test, test/remunerated/tilde/double_quoted_tilde.test, test/remunerated/tilde/double_tilde.test, test/remunerated/tilde/quoted_tilde.test, test/remunerated/tilde/simple2.test, test/remunerated/tilde/simple.test, test/remunerated/braces/double_quoted_braces.test, test/remunerated/braces/quoted_braces.test:
+	ok
+
+2005-01-13  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* test/checker.pl: *** empty log message ***
+
+2005-01-13  anass kadiri  <kadiri_a@frunalia.epita.fr>
+
+	* test/remunerated/braces/quoted_braces.test, test/remunerated/braces/invert_braces.test:
+	ok
+
+2005-01-13  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* test/compulsory/expansion/star_sandwich.test:
+	*** empty log message ***
+
+2005-01-13  anass kadiri  <kadiri_a@frunalia.epita.fr>
+
+	* test/remunerated/braces/mult_braces_lines2.test, test/remunerated/braces/mult_braces_lines.test, test/remunerated/braces/multiple_braces2.test, test/remunerated/braces/multiple_braces.test, test/remunerated/braces mult_lines.test, test/remunerated/braces/multiple_virg.test:
+	ok
+
+2005-01-13  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* test/next_id: *** empty log message ***
+
+2005-01-13  anass kadiri  <kadiri_a@frunalia.epita.fr>
+
+	* test/remunerated/braces/virg3.test, test/remunerated/braces/virg2.test:
+	ok
+
+2005-01-13  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* test/compulsory/expansion/misc_quest_star.test:
+	Modification de la descriptiom moisie
+
+2005-01-13  anass kadiri  <kadiri_a@frunalia.epita.fr>
+
+	* test/remunerated/braces/virg.test, test/remunerated/braces/vide.test:
+	ok
+
+2005-01-13  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* test/checker.pl: *** empty log message ***
+
+2005-01-13  anass kadiri  <kadiri_a@frunalia.epita.fr>
+
+	* test/remunerated/shopt/shopt_option_u.test, test/remunerated/shopt/shopt_option_q.test, test/remunerated/shopt/shopt_option_s.test, test/remunerated/shopt/shopt_option_s, test/remunerated/shopt/simple.test:
+	ok
+
+2005-01-13  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* test/compulsory/expansion/misc_quest_star.test, test/checker.pl:
+	*** empty log message ***
+
+2005-01-13  gilles durget  <durget_g@frunalia.epita.fr>
+
+	* src/Makefile, src/defines.h, src/is.c, src/is.h, src/is2.c, src/lexer.c:
+	*** empty log message ***
+
+2005-01-13  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* src/defines.h, src/display.c, src/lexer.h, src/parser.c, src/read_line.c, src/struct_parse.c, test/compulsory/expansion/brackets_1st_bracket.test:
+	*** empty log message ***
+
+2005-01-13  anass kadiri  <kadiri_a@frunalia.epita.fr>
+
+	* test/netchecker.pl: netchecker ok
+
+2005-01-13  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* test/compulsory/expansion/brackets_tiret.test, test/compulsory/expansion/mutiple_in_same.test, test/checker.pl:
+	*** empty log message ***
+
+2005-01-13  anass kadiri  <kadiri_a@frunalia.epita.fr>
+
+	* test/netchecker.pl: ok
+
+2005-01-13  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* test/compulsory/expansion/brack_little_2.test, test/compulsory/expansion/brack_little.test, test/compulsory/expansion/brack_simple.test:
+	*** empty log message ***
+
+2005-01-13  anass kadiri  <kadiri_a@frunalia.epita.fr>
+
+	* test/netchecker.pl, Makefile: ok
+
+2005-01-13  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* test/compulsory/expansion/backslashed_quest.test, test/checker.pl:
+	*** empty log message ***
+
+	* test/compulsory/expansion/multiple_interro.test:
+	Changement de la description foireuse
+
+	* test/compulsory/expansion/multiple_interro.test, test/compulsory/expansion/interro_unique.test, test/next_id, test/compulsory/expansion/backslashed_star.test, test/compulsory/expansion/multiple_stars_one.test:
+	*** empty log message ***
+
+2005-01-13  charles feval  <feval_c@frunalia.epita.fr>
+
+	* src/struct_parse.c: Compilation under linux
+
+2005-01-13  olivier grosliere  <grosli_o@frunalia.epita.fr>vc-update-change-log
+
+	* test/compulsory/expansion/star_multiple.test, test/compulsory/expansion/star_dbl_quoted.test:
+	*** empty log message ***
+
+2005-01-13  gilles durget  <durget_g@frunalia.epita.fr>
+
+	* src/Makefile: *** empty log message ***
+
+2005-01-13  charles feval  <feval_c@frunalia.epita.fr>
+
+	* src/history.c, src/parser.c, src/ast.c, configure:
+	Compilation with sun
+
+2005-01-13  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* test/compulsory/expansion/star_quoted.test, test/netchecker.pl, test/next_id, test/checker.pl, test/compulsory/execcmd/simple_and.test, src/defines.h, src/error.c, src/error.h, src/is.c, src/lexer.h, src/parser.c, test/compulsory/redir/chiant2.test, test/compulsory/expansion/echo_star.test, test/compulsory/expansion/star_normal_2.test, src/struct_parse.c, src/loop.c, src/global.c, src/global.h, src/launch.c, src/lexer.c, src/parser.h, src/struct_parse.h:
+	*** empty log message ***
+
+2005-01-13  charles feval  <feval_c@frunalia.epita.fr>
+
+	* src/loop.c: *** empty log message ***
+
+2005-01-13  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* test/checker.pl, test/compulsory/expansion/star_normal_2.test:
+	*** empty log message ***
+
+	* test/compulsory/expansion/star_normal_1.test:
+	Modification du test pour moulinette OK
+
+	* test/checker.pl: *** empty log message ***
+
+2005-01-12  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* test/checker.pl, test/compulsory/expansion/star_normal_1.test, test/compulsory/execcmd/simple_and.test, test/compulsory/execcmd/and_echoes2.test, test/compulsory/execcmd/or_echoes2.test, test/compulsory/execcmd/or_echoes.test, test/next_id, test/compulsory/execcmd/and_echoes.test, test/compulsory/redir/chiant2.test, test/compulsory/redir/chiant1.test, TESTS, test/remunerated/braces/simple.test, test/gen.pl, test/compulsory/quoting/strange_quoting.test, test/compulsory/quoting/multi_quotes.test, test/compulsory/quoting/many_allquotes.test, test/compulsory/quoting/backslashed_backquote.test, test/compulsory/quoting/backquoting.test, test/compulsory/quoting/multi_quotes_stick_2.test, test/compulsory/quoting/multi_quotes_stick.test, test/compulsory/quoting/multi_lines_with_quotes_and_errors.test, test/compulsory/quoting/multi_lines_with_quotes.test, test/compulsory/quoting/com_name_mult_lines.test, test/compulsory/quoting/multi_lines.test, test/compulsory/quoting/multi_quotes_2.test, test/compulsory/quoting/quotes_back.test, test/compulsory/quoting/backslashed_back_n.test, test/compulsory/quoting/arith_multi_quotes_1.test, test/compulsory/quoting/backslashed_backslash_n.test, test/compulsory/quoting/quoted_expansion.test:
+	*** empty log message ***
+
+2005-01-11  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* Makefile: modification dans le makefile
+
+	* test/netchecker.pl: ok
+
+	* test/netchecker.pl: version ameliioree de netchecker
+
+	* test/interface.pl, test/checker.pl: *** empty log message ***
+
+2005-01-10  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* test/checker.pl: *** empty log message ***
+
+	* test/netchecker.pl: ok
+
+	* test/checker.pl: *** empty log message ***
+
+	* test/netchecker.pl:
+	nouvelle version operationnel de netchecker.pl  !!
+
+2005-01-10  gilles durget  <durget_g@frunalia.epita.fr>
+
+	* src/display.c, src/parser.c, src/defines.h, src/is.c:
+	*** empty log message ***
+
+2005-01-10  charles feval  <feval_c@frunalia.epita.fr>
+
+	* src/Makefile: *** empty log message ***
+
+2005-01-10  gilles durget  <durget_g@frunalia.epita.fr>
+
+	* src/defines.h, src/display.c, src/parser.c: *** empty log message ***
+
+2005-01-10  charles feval  <feval_c@frunalia.epita.fr>
+
+	* src/parser.c: Corrected a bug on function declaration
+
+2005-01-10  gilles durget  <durget_g@frunalia.epita.fr>
+
+	* src/display.c, src/parser.c: *** empty log message ***
+
+2005-01-10  charles feval  <feval_c@frunalia.epita.fr>
+
+	* src/Makefile, src/defines.h, src/lexer.c, src/parser.c:
+	*** empty log message ***
+
+2005-01-10  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* test/checker.pl, test/netchecker.pl: *** empty log message ***
+
+	* test/next_id: Nouvel id dans le numeroteur
+
+	* src/Makefile, src/lexer.c, src/lexer.h, src/lexer2.c:
+	*** empty log message ***
+
+	* test/compulsory/redir/big_dbl_red.test, test/compulsory/redir/big_funny.test, test/compulsory/redir/big_red_with_error.test, test/compulsory/redir/double_fd.test, test/compulsory/redir/double_simple1.test, test/compulsory/redir/ind_red_mult.test, test/compulsory/redir/indir_moisi.test, test/compulsory/redir/indir_simple.test, test/compulsory/redir/mult_simple_double.test, test/compulsory/redir/mult_trap.test, test/compulsory/redir/red_with_pipes.test, test/compulsory/redir/simple_fd.test, test/compulsory/redir/simple_fd_moisi.test, test/compulsory/redir/simple_moisi.test, test/compulsory/redir/simple_mult_redir.test, test/compulsory/redir/simple_simple1.test, test/compulsory/redir/stderr_red.test, test/compulsory/redir/stderr_red_err.test, test/compulsory/redir/stderr_red_funny.test, test/compulsory/redir/triple_red.test:
+	Ajout de la numerotation
+
+	* src/lexer.c, src/lexer.h: *** empty log message ***
+
+2005-01-10  gilles durget  <durget_g@frunalia.epita.fr>
+
+	* src/parser.c: *** empty log message ***
+
+2005-01-10  charles feval  <feval_c@frunalia.epita.fr>
+
+	* src/read_line.c, src/struct_parse.c:
+	Big bug with buffer inilisation solved
+
+2005-01-10  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* test/compulsory/pipe/end_pipe.test, test/compulsory/pipe/enormous_with_plenty.test, test/compulsory/pipe/middle_moisi.test, test/compulsory/pipe/multi_sticken.test, test/compulsory/pipe/plenty_cats.test, test/compulsory/pipe/separated_null_pipes.test, test/compulsory/pipe/simple1.test, test/compulsory/pipe/simple2.test, test/compulsory/pipe/stick_pipe_both.test, test/compulsory/pipe/stick_pipe_left.test, test/compulsory/pipe/stick_pipe_right.test, test/compulsory/pipe/beg_pipe.test, test/compulsory/pipe/database.test, test/compulsory/comments/backslashed_1.test, test/compulsory/comments/backslashed_2.test, test/compulsory/comments/end_line_cmt.test, test/compulsory/comments/just_comment.test, test/compulsory/comments/just_sharp.test, test/compulsory/comments/mid_token_cmt.test, test/compulsory/comments/middle_line_cmt.test, test/compulsory/comments/unbackslashed_err.test:
+	Ajout de la numerotation
+
+2005-01-10  gilles durget  <durget_g@frunalia.epita.fr>
+
+	* src/is.c: *** empty log message ***
+
+2005-01-10  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* test/compulsory/builtins/exit/empty.test, test/compulsory/builtins/exit/exit_bef.test, test/compulsory/builtins/exit/exit_next.test, test/compulsory/builtins/exit/simple.test:
+	Modification de la numerotation
+
+	* test/netchecker.pl: Changement dans la gestion de la liste des hosts
+
+	* test/checker.pl: *** empty log message ***
+
+2005-01-09  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* TODO, src/ast.c, src/display.c, src/display.h, src/lexer.h, src/parser.c, test/checker.pl:
+	*** empty log message ***
+
+	* test/compulsory/builtins/echo/double_quoted_mismatch.test, test/compulsory/builtins/echo/echo-E.test, test/compulsory/builtins/echo/echo-e.test, test/compulsory/builtins/echo/echo-n.test, test/compulsory/builtins/echo/echoecho.test, test/compulsory/builtins/echo/mult_args.test, test/compulsory/builtins/echo/mult_on_mult.test, test/compulsory/builtins/echo/mult_on_mult_moisi.test, test/compulsory/builtins/echo/mult_on_one.test, test/compulsory/builtins/echo/mult_on_one_moisi.test, test/compulsory/builtins/echo/one_on_mult.test, test/compulsory/builtins/echo/one_on_mult_moisi.test, test/compulsory/builtins/echo/simple1.test, test/compulsory/builtins/echo/simple2.test, test/compulsory/builtins/echo/simple_quoted.test, test/compulsory/builtins/echo/simple_quoted_mismatch.test, test/compulsory/builtins/exit/code_moisi.test, test/compulsory/builtins/cd/root.test, test/compulsory/builtins/cd/simple.test, test/compulsory/builtins/cd/simple2.test, test/compulsory/builtins/cd/tiret.test, test/compulsory/builtins/cd/unexists.test, test/compulsory/builtins/echo/double_quoted.test, test/compulsory/infinite.test:
+	Modification des descripeturs et ajout de la num
+
+	* test/next_id, test/checker.pl, test/netchecker.pl, src/display.c:
+	*** empty log message ***
+
+2005-01-09  charles feval  <feval_c@frunalia.epita.fr>
+
+	* src/Makefile: *** empty log message ***
+
+2005-01-09  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* src/ast.c, src/defines.h, src/display.c, src/display.h, src/parser.c, test/checker.pl:
+	*** empty log message ***
+
+2005-01-09  charles feval  <feval_c@frunalia.epita.fr>
+
+	* src/parser.c: *** empty log message ***
+
+2005-01-09  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* src/Makefile, src/ast.c, src/ast.h, src/parser.c:
+	*** empty log message ***
+
+2005-01-09  charles feval  <feval_c@frunalia.epita.fr>
+
+	* src/parser.c: *** empty log message ***
+
+2005-01-09  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* test/checker.pl: *** empty log message ***
+
+2005-01-09  charles feval  <feval_c@frunalia.epita.fr>
+
+	* src/parser.c: *** empty log message ***
+
+2005-01-09  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* test/checker.pl, src/ast.c, src/parser.c, src/ast.h, grammar.txt:
+	*** empty log message ***
+
+	* src/defines.h, src/parser.c: Parser ameliorated
+
+	* test/checker.pl, test/compulsory/comments/unbackslashed_err.test:
+	*** empty log message ***
+
+	* test/compulsory/comments/backslashed_2.test:
+	Correction de la description
+
+	* test/compulsory/comments/backslashed_2.test, test/compulsory/comments/backslashed_1.test, test/compulsory/comments/mid_token_cmt.test, test/compulsory/comments/end_line_cmt.test, test/compulsory/comments/middle_line_cmt.test, test/compulsory/comments/just_comment.test, test/compulsory/comments/just_sharp.test:
+	*** empty log message ***
+
+	* test/compulsory/redir/stderr_red_err.test:
+	Modif du test, suppression du repertoire toto
+
+	* test/checker.pl, test/compulsory/infinite.test:
+	*** empty log message ***
+
+2005-01-08  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* test/checker.pl, test/compulsory/infinite.test, test/compulsory/pipe/separated_null_pipes.test, test/compulsory/pipe/database.test, grammar.txt, src/ast.c, src/ast.h, src/defines.h, src/is.c, src/is.h, src/lexer.c, src/parser.c, test/compulsory/pipe/end_pipe.test, test/compulsory/pipe/beg_pipe.test, src/lexer.h, test/compulsory/pipe/multi_sticken.test, test/compulsory/pipe/stick_pipe_both.test, test/compulsory/pipe/stick_pipe_right.test, test/compulsory/pipe/stick_pipe_left.test, test/compulsory/pipe/middle_moisi.test, test/compulsory/pipe/enormous_with_plenty.test, test/compulsory/pipe/plenty_cats.test, test/compulsory/pipe/simple2.test, test/compulsory/pipe/simple1.test, test/compulsory/redir/simple_fd_moisi.test, test/compulsory/redir/double_fd.test, test/compulsory/redir/simple_fd.test, test/compulsory/redir/mult_trap.test, test/compulsory/redir/stderr_red.test, test/compulsory/redir/stderr_red_funny.test, test/compulsory/redir/stderr_red_err.test, test/compulsory/redir/big_funny.test, test/compulsory/redir/big_dbl_red.test, test/compulsory/redir/big_red_with_error.test, test/compulsory/redir/triple_red.test, test/compulsory/redir/mult_simple_double.test, test/exo2.pl, test/interface.pl:
+	*** empty log message ***
+
+2005-01-07  gilles durget  <durget_g@frunalia.epita.fr>
+
+	* src/lexer.c: *** empty log message ***
+
+2005-01-07  charles feval  <feval_c@frunalia.epita.fr>
+
+	* src/parser.c: *** empty log message ***
+
+2005-01-07  gilles durget  <durget_g@frunalia.epita.fr>
+
+	* src/lexer.c, src/lexer.h, src/parser.c: *** empty log message ***
+
+2005-01-07  charles feval  <feval_c@frunalia.epita.fr>
+
+	* src/parser.c: *** empty log message ***
+
+2005-01-07  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* TESTS: *** empty log message ***
+
+2005-01-07  charles feval  <feval_c@frunalia.epita.fr>
+
+	* src/lexer.c, src/lexer.h, src/parser.c, src/Makefile, src/ast.c, src/ast.h:
+	*** empty log message ***
+
+2005-01-07  gilles durget  <durget_g@frunalia.epita.fr>
+
+	* src/lexer.c, src/parser.c, src/struct_parse.c:
+	*** empty log message ***
+
+2005-01-07  charles feval  <feval_c@frunalia.epita.fr>
+
+	* src/buffer.c, src/defines.h, src/global.h, src/loop.c, src/read_line.c:
+	*** empty log message ***
+
+2005-01-07  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* src/lexer.c: *** empty log message ***
+
+2005-01-07  charles feval  <feval_c@frunalia.epita.fr>
+
+	* src/prompt.c, Makefile: *** empty log message ***
+
+2005-01-07  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* TESTS, src/lexer.c: Bug fixed for quoting.
+
+	* test/compulsory/redir/red_with_pipes.test, test/compulsory/redir/mult_trap.test, test/compulsory/redir/indir_moisi.test, test/compulsory/redir/simple_moisi.test, test/compulsory/redir/ind_red_mult.test, test/compulsory/redir/simple_mult_redir.test, test/compulsory/redir/indir_simple.test:
+	*** empty log message ***
+
+	* src/Makefile, src/defines.h, src/lexer.c, src/lexer.h, src/parser.c, src/read_line.c, src/struct_parse.c:
+	correct some bugs in 42sh init and add curword la and accept functions
+
+	* test/compulsory/redir/simple_simple1.test, test/compulsory/redir/double_simple1.test:
+	*** empty log message ***
+
+2005-01-07  gilles durget  <durget_g@frunalia.epita.fr>
+
+	* TESTS, src/parser.c, src/is.c, src/is.h, src/lexer.c, src/Makefile, src/defines.h:
+	*** empty log message ***
+
+2005-01-07  charles feval  <feval_c@frunalia.epita.fr>
+
+	* src/parser.c, src/struct_parse.c: Interactive mode operationnal
+
+	* src/parser.c, src/prompt.c, src/struct_parse.c:
+	Interactive mode enabled
+
+	* src/Makefile, src/buffer.c, src/prompt.c:
+	Corrected: Bug in init_buf when in interaction mode
+
+2005-01-07  gilles durget  <durget_g@frunalia.epita.fr>
+
+	* src/defines.h, src/lexer.c: *** empty log message ***
+
+2005-01-07  charles feval  <feval_c@frunalia.epita.fr>
+
+	* src/Makefile, src/launch.c, src/loop.c, src/main.c, src/parser.c, src/parser.h:
+	A true main was added
+
+	* src/Makefile, src/defines.h, src/prompt.c, src/prompt.h: Prompt
+
+2005-01-07  gilles durget  <durget_g@frunalia.epita.fr>
+
+	* TESTS: *** empty log message ***
+
+2005-01-07  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* test/checker.pl, test/interface.pl: *** empty log message ***
+
+2005-01-06  gilles durget  <durget_g@frunalia.epita.fr>
+
+	* src/lexer.c, src/main.c: *** empty log message ***
+
+2005-01-06  charles feval  <feval_c@frunalia.epita.fr>
+
+	* src/error.c, src/loop.c: *** empty log message ***
+
+2005-01-06  gilles durget  <durget_g@frunalia.epita.fr>
+
+	* src/lexer.c, src/buffer.c, src/defines.h: *** empty log message ***
+
+2005-01-06  charles feval  <feval_c@frunalia.epita.fr>
+
+	* src/read_line.c: *** empty log message ***
+
+	* src/read_line.c, src/read_line.h, src/Makefile, src/defines.h, src/global.c, src/global.h, src/launch.c, src/loop.c, src/parser.c:
+	Readline added, some files debugged
+
+2005-01-06  gilles durget  <durget_g@frunalia.epita.fr>
+
+	* src/buffer.c: *** empty log message ***
+
+2005-01-06  charles feval  <feval_c@frunalia.epita.fr>
+
+	* src/history.c, src/history.h, src/parser.c: *** empty log message ***
+
+2005-01-06  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* test/checker.pl, test/compulsory/builtins/cd/root.test, test/compulsory/builtins/cd/simple.test, test/compulsory/builtins/cd/simple2.test, test/compulsory/builtins/cd/tiret.test, test/compulsory/builtins/cd/unexists.test, test/compulsory/builtins/echo/double_quoted.test, test/compulsory/builtins/echo/double_quoted_mismatch.test, test/compulsory/builtins/echo/echo-E.test, test/compulsory/builtins/echo/echo-e.test, test/compulsory/builtins/echo/echo-n.test, test/compulsory/builtins/echo/echoecho.test, test/compulsory/builtins/echo/mult_args.test, test/compulsory/builtins/echo/mult_on_mult.test, test/compulsory/builtins/echo/mult_on_mult_moisi.test, test/compulsory/builtins/echo/mult_on_one.test, test/compulsory/builtins/echo/mult_on_one_moisi.test, test/compulsory/builtins/echo/one_on_mult.test, test/compulsory/builtins/echo/one_on_mult_moisi.test, test/compulsory/builtins/echo/simple1.test, test/compulsory/builtins/echo/simple2.test, test/compulsory/builtins/echo/simple_quoted.test, test/compulsory/builtins/echo/simple_quoted_mismatch.test, test/compulsory/builtins/exit/code_moisi.test, test/compulsory/builtins/exit/empty.test, test/compulsory/builtins/exit/exit_bef.test, test/compulsory/builtins/exit/exit_next.test, test/compulsory/builtins/exit/simple.test, test/gen.pl:
+	*** empty log message ***
+
+2005-01-06  charles feval  <feval_c@frunalia.epita.fr>
+
+	* src/global.h, src/history.c, src/history.h, src/launch.c, src/loop.c:
+	History managment
+
+2005-01-06  gilles durget  <durget_g@frunalia.epita.fr>
+
+	* src/buffer.c, src/lexer.c: *** empty log message ***
+
+2005-01-06  charles feval  <feval_c@frunalia.epita.fr>
+
+	* src/global.c, src/global.h, src/launch.c, src/loop.c, src/loop.h:
+	Global var tools
+
+2005-01-06  gilles durget  <durget_g@frunalia.epita.fr>
+
+	* src/lexer.c, src/struct_parse.c, src/buffer.c, src/defines.h, src/lexer.h, src/main.c:
+	*** empty log message ***
+
+2005-01-06  charles feval  <feval_c@frunalia.epita.fr>
+
+	* src/loop.c: Added loop file
+
+	* src/launch.c, src/launch.h: Launcher
+
+	* src/buffer.c, src/defines.h, src/launch.c, src/struct_parse.c:
+	*** empty log message ***
+
+	* src/defines.h, src/launch.c, src/struct_parse.c, src/buffer.c:
+	Added: mode pipe, et mode inter géré
+
+	* src/Makefile, src/error.c, src/error.h, src/launch.c, src/struct_parse.c:
+	Error manager, launcher
+
+	* src/main.c: Main
+
+2005-01-06  gilles durget  <durget_g@frunalia.epita.fr>
+
+	* src/defines.h, src/lexer.c: *** empty log message ***
+
+2005-01-06  charles feval  <feval_c@frunalia.epita.fr>
+
+	* src/Makefile, src/struct_parse.c, src/struct_parse.h:
+	Debugged: struct_parse
+
+	* src/struct_parse.c, src/struct_parse.h:
+	Readded Struct_parse functions
+
+2005-01-06  gilles durget  <durget_g@frunalia.epita.fr>
+
+	* TESTS, src/lexer.c: *** empty log message ***
+
+2005-01-06  charles feval  <feval_c@frunalia.epita.fr>
+
+	* TESTS: A file TESTS was added
+
+	* TODO: Todo
+
+2005-01-06  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* TODO: *** empty log message ***
+
+2005-01-05  charles feval  <feval_c@frunalia.epita.fr>
+
+	* src/buffer.c, src/defines.h: *** empty log message ***
+
+2005-01-05  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* src/lexer.c, src/defines.h, test/checker.pl, test/exo2.pl, test/compulsory/builtins/exit/exit_bef.test:
+	*** empty log message ***
+
+2005-01-05  charles feval  <feval_c@frunalia.epita.fr>
+
+	* src/Makefile, src/buffer.c, src/buffer.h:
+	Buffer tools, and parser_struct tools
+
+2005-01-05  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* test/compulsory/builtins/exit/exit_next.test, test/compulsory/builtins/exit/code_moisi.test, test/compulsory/builtins/exit/empty.test, test/compulsory/builtins/exit/simple.test, test/compulsory/builtins/echo/one_on_mult.test, test/compulsory/builtins/cd/cd_simple.test, test/compulsory/builtins/cd/root.test, test/compulsory/builtins/cd/simple.test, test/compulsory/builtins/cd/tiret.test, test/compulsory/builtins/cd/cd-root, test/compulsory/builtins/cd/cd_simple, test/compulsory/builtins/cd/cdtiret, lexer.l, src/lexer.c, test/compulsory/builtins/cd/simple2.test:
+	*** empty log message ***
+
+2005-01-05  charles feval  <feval_c@frunalia.epita.fr>
+
+	* Doxyfile: *** empty log message ***
+
+2005-01-05  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* test/compulsory/builtins/cd/unexists.test: *** empty log message ***
+
+2005-01-05  charles feval  <feval_c@frunalia.epita.fr>
+
+	* configure: *** empty log message ***
+
+	* src/Makefile, src/buffer.c, src/buffer.h, src/lexer.c:
+	Adding Buffer file
+
+2005-01-05  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* test/compulsory/builtins/cd/cd_simple, src/lexer.c, test/compulsory/builtins/echo/echo-E.test, test/gen.pl:
+	*** empty log message ***
+
+2005-01-05  charles feval  <feval_c@frunalia.epita.fr>
+
+	* src/defines.h, src/lexer.c: Compilation debuggage
+
+2005-01-05  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* src/lexer.c: 17h
+
+	* src/lexer.c: plein de choses
+
+	* test/compulsory/builtins/echo/echo-e.test, test/compulsory/builtins/echo/echo-n.test:
+	*** empty log message ***
+
+2005-01-05  charles feval  <feval_c@frunalia.epita.fr>
+
+	* src/lexer.c, src/lexer.h: *** empty log message ***
+
+	* src/Makefile, src/lexer.c: Makefile
+
+2005-01-05  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* test/compulsory/builtins/echo/echoecho.test, test/compulsory/builtins/echo/one_on_mult_moisi.test, test/compulsory/builtins/echo/one_on_mult.test:
+	*** empty log message ***
+
+2005-01-05  charles feval  <feval_c@frunalia.epita.fr>
+
+	* src/lexer.c, src/lexer.h: Adding buffer initialisation into lexer.
+
+	* src/lexer.c: *** empty log message ***
+
+2005-01-05  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* src/defines.h, src/lexer.c: Corrects some bugs
+
+2005-01-05  charles feval  <feval_c@frunalia.epita.fr>
+
+	* src/lexer.c: *** empty log message ***
+
+	* Doxyfile, src/lexer.c, src/lexer.h: Doxyfile update
+
+	* Doxyfile, src/lexer.c, src/lexer.h: *** empty log message ***
+
+	* src/lexer.c, src/lexer.h: fill_buf can refill the buffer backward
+
+2005-01-05  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* test/compulsory/builtins/echo/mult_on_one_moisi.test:
+	*** empty log message ***
+
+2005-01-05  charles feval  <feval_c@frunalia.epita.fr>
+
+	* Doxyfile: Adding doxyfile
+
+2005-01-05  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* src/lexer.c:
+	Add 4 new functions : skip_blank and fill_comment whose are used to skip all unused caracters and fill_buff and read_char whose are used to read the bufferized file or line command.
+
+2005-01-05  charles feval  <feval_c@frunalia.epita.fr>
+
+	* src/defines.h, src/lexer.c, src/lexer.h:
+	Adding fill_buf & get_c to lexer
+
+2005-01-05  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* test/compulsory/builtins/echo/mult_on_one.test, test/compulsory/builtins/echo/mult_on_mult_moisi.test, test/compulsory/builtins/echo/mult_on_mult.test, test/compulsory/builtins/echo/double_quoted_mismatch.test, test/compulsory/builtins/echo/double_quoted.test, test/compulsory/builtins/echo/simple_quoted_mismatch.test, src/defines.h, src/lexer.c, src/lexer.h, test/compulsory/builtins/echo/simple_quoted.test, test/compulsory/builtins/echo/mult_args.test, test/compulsory/builtins/echo/simple2.test:
+	*** empty log message ***
+
+	* test/compulsory/builtins/echo/simple1.test: Ajout du test simple
+
+	* test/compulsory/builtins/echo/simple_echo.test:
+	Nouveau format de test
+
+	* test/toto: Suppresion du fichier genere a l'essai
+
+	* test/gen.pl, test/toto: Test de la moulinette d'ajout
+
+2005-01-05  charles feval  <feval_c@frunalia.epita.fr>
+
+	* src/lexer.c, src/parser.c: *** empty log message ***
+
+2005-01-05  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* src/lexer.c, src/lexer.h:
+	Updating lexer.c with a structure in which is defined all tokens
+
+	* src/parser.c: Attention a la norme dans les commentaires
+
+2005-01-04  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* lexer.l: *** empty log message ***
+
+	* src/defines.h, src/lexer.c, src/lexer.h, src/parser.c: bla
+
+	* test/gen.pl: Script de generation de test
+
+	* test/compulsory/builtins/echo/simple_echo.test:
+	Ajout du premier test !
+
+2005-01-03  charles feval  <feval_c@frunalia.epita.fr>
+
+	* AST, grammar.txt: *** empty log message ***
+
+2005-01-03  gilles durget  <durget_g@frunalia.epita.fr>
+
+	* grammar.txt, AUTHORS: sf
+
+	* grammar.txt: sdfl
+
+2005-01-03  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* AUTHORS: enter
+
+2004-12-22  olivier grosliere  <grosli_o@frunalia.epita.fr>
+
+	* Makefile, configure: New file.
+
+	* Makefile, configure: test
+
+	* AUTHORS, ChangeLog, LINKS, NEWS, README, THANKS, TODO: New file.
+
+	* AUTHORS, ChangeLog, LINKS, NEWS, README, THANKS, TODO: test
+

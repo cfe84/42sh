@@ -1,0 +1,7 @@
+#057
+#Simples et doubles redirections et simple indirection
+
+echo "ta mere est une pute" > toto
+echo toto >> tutu < toto < toto
+rm tutu
+rm toto

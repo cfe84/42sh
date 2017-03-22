@@ -1,0 +1,6 @@
+#1033
+#double dollar symbol
+
+var=42
+echo \$$var
+echo \$${var}

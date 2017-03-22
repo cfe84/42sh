@@ -1,0 +1,6 @@
+#049
+#Big standard redirection
+
+ypcat passwd > tutu
+cat tutu
+rm tutu

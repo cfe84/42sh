@@ -1,0 +1,5 @@
+#1056
+#an escaped quote in cmd
+
+var=`echo sal$ut`
+echo $var

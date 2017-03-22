@@ -1,0 +1,5 @@
+#1061
+#test $? var
+
+exit 4
+echo $?

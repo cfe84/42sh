@@ -1,0 +1,4 @@
+#070
+#Guillemets backslashes
+
+echo "bl\"ibla"

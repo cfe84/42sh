@@ -1,0 +1,4 @@
+#096
+#Etoile avec double quotes
+
+ls /d"*"

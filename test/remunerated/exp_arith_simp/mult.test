@@ -1,0 +1,4 @@
+#1037
+#simple mult test
+
+echo $((21*2))

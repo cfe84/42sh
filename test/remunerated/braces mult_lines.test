@@ -1,0 +1,15 @@
+#1009
+#a couple of braces on multiple lines
+
+echo to{
+ti,
+tu,
+to,,tou,ti,toooo
+,,,
+,
+,
+,,,,,
+to,
+to,to
+,
+to}

@@ -1,0 +1,4 @@
+#1008
+#multiple comas on braces
+
+echo to{,,,,,,,,,,,,,,,,,,,}

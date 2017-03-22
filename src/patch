@@ -1,0 +1,33 @@
+8c8
+< ** Last update Tue Jan 18 19:09:08 2005 gilles durget
+---
+> ** Last update Tue Jan 18 19:25:16 2005 anass kadiri
+21d20
+< #include "redirections.h"
+30a30
+>     {"shopt", built_shopt},
+68,69d67
+<   int	*backup = NULL;
+< /*  int	exec_pid = 0;*/
+71,72c69
+<   if ((backup = redirections(ast->redir)) == NULL)
+<     return 1;
+---
+>   g = g;
+78,79d74
+< /*	 if (g->forg_pid != -2)
+< 	 g->forg->pid = pid;*/
+81d75
+< 	 redir_restore_backup(backup);
+92d85
+<   redir_restore_backup(backup);
+172,173d164
+<   if (g->retval)
+<      return 0;
+179,182c170
+< 	{
+< 	  g->forg_pid = -2;
+< 	  exit(ev_logiq(ast_list->ast, g));
+< 	}
+---
+> 	exit(ev_logiq(ast_list->ast, g));

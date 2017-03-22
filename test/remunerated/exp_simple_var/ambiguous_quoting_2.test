@@ -1,0 +1,4 @@
+#123
+#Ambiguous quoting 2
+
+"${foo-bar$"}

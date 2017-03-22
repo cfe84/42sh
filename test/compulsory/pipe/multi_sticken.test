@@ -1,0 +1,5 @@
+#041
+#Grand Pipe avec plein de tests colles
+
+ypcat passwd|cat|cat|grep a1|cat|cat|cat|cat\
+|grep dele|cat|cat|cat|wc -l

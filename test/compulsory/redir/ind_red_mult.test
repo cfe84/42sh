@@ -1,0 +1,7 @@
+#054
+#Indirections et redirections multiples
+
+echo "ton chien est con"
+echo "ton chat est berbiqui"
+cat < toto < tutu < tata > trotro 2> trutru
+rm toto tutu trotro trutru

@@ -1,0 +1,7 @@
+#1065
+#test $OLDPWD var
+
+cd ~
+echo $OLDPWD
+cd ~
+echo $OLDPWD

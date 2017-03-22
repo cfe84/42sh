@@ -1,0 +1,4 @@
+#048
+#Pipe colle a droite
+
+ypcat passwd |grep delest_o

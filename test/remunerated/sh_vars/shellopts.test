@@ -1,0 +1,4 @@
+#1066
+#test $SHELLOPTS var
+
+echo $SHELLOPTS

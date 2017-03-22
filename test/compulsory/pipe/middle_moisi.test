@@ -1,0 +1,4 @@
+#040
+#Pipeline classique avec erreurs
+
+echo "ta mere est une butte" | grep

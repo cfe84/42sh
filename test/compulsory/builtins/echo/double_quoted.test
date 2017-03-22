@@ -1,0 +1,4 @@
+#006
+#Double Quoted
+
+echo "toto"

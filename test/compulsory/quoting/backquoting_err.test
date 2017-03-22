@@ -1,0 +1,4 @@
+#126
+#Backquoting invalide
+
+sh -c '` echo "foo`'

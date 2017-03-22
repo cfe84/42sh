@@ -1,0 +1,4 @@
+#108
+#Etoile et Crochets pervers...
+
+ls /[!-a-zA-Z[]*

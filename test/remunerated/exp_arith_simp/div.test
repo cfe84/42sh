@@ -1,0 +1,4 @@
+#1040
+#simple divide test
+
+echo $((1/1))

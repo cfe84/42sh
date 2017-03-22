@@ -1,0 +1,5 @@
+#1023
+#affectation simple
+
+FOO='ACU'
+echo $FOO

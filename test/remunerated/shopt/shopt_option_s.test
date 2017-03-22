@@ -1,0 +1,4 @@
+#1001
+#shopt with option -s
+
+shopt -s

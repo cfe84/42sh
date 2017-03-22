@@ -1,0 +1,10 @@
+#014
+#Multiple commands on multiple lines with errors
+
+echo toto
+echo ta paire est sympa
+echo ton maire est gentil
+echo "ta paire est une mute
+echo "ton pere est un jardinier
+echo 'unterm
+echo'you are a dumb

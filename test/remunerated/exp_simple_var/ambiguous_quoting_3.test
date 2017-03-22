@@ -1,0 +1,5 @@
+#124
+#Ambiguous quoting 3
+
+unset bar
+foo="${bar-\}}"

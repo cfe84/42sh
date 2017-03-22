@@ -1,0 +1,6 @@
+#059
+#Redirections full command line with pipes
+
+> /tmp/out cat < /etc/resolv.conf
+< /etc/passwd cat -n | grep -v root | grep sbin >> /tmp/out 2> /dev/null
+< /tmp/out cat

@@ -1,0 +1,17 @@
+#1049
+#plus plus test
+
+a=40
+echo $(( a++ ))
+echo $((a))
+echo $(( ++a))
+echo $((++a++))
+echo $(( a++ + ++a))
+echo $((++a + ++a + a++))
+echo $((a+
++
+))
+echo $(( a
+++))
+echo $(( ++++++++++a))
+echo $((a+++++++++++++++++++++++++))

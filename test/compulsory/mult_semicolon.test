@@ -1,0 +1,4 @@
+#112
+#Commandes separees par de multiples points-virgules
+
+echo titi ;;; echo toto

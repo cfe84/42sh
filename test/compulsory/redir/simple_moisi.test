@@ -1,0 +1,4 @@
+#061
+#Simple redirection, with errors
+
+echo "ton pere est une butte" >

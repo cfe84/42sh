@@ -1,0 +1,4 @@
+#079
+#Quoting etrange...
+
+echo '""`echo"''"`"'

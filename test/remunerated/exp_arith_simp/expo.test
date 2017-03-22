@@ -1,0 +1,4 @@
+#1041
+#simple exponent test
+
+echo $((1**2))

@@ -1,0 +1,5 @@
+#1054
+#cmd inside cmd
+
+var=$( echo $( echo salut ) )
+echo $var

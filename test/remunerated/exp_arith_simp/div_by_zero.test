@@ -1,0 +1,4 @@
+#1039
+#divide by zero
+
+echo $((42     /     0 ) )

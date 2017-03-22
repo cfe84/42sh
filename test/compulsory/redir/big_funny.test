@@ -1,0 +1,6 @@
+#050
+#Big redirection in a funny file
+
+ypcat passwd >> \<
+cat \<
+rm \<

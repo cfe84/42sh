@@ -1,0 +1,7 @@
+#053
+#Double redirection simple
+
+echo toto > toto
+echo tata >> toto
+cat toto
+rm toto

@@ -1,0 +1,5 @@
+#001
+#Entree dans le repertoire root
+
+cd /usr/root
+pwd

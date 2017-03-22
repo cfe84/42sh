@@ -1,0 +1,78 @@
+parse:		goodinput*
+
+good_input:       simple_list '\n'
+                | '\n'
+		| EOF
+
+simple_list:        and_or simple_list'
+		  | and_or simple_list' ('&'|';')
+
+simple_list':	  ('&'|';') and_or simple_list'
+		  | epsilon
+
+and_or:           pipeline and_or'
+
+and_or':	  ('&&'|'||') ('\n')* pipeline and_or'
+		  | epsilon
+
+pipeline:	  ['!'] command pipeline'
+
+pipeline':	  '|' ('\n')* command pipeline'
+		  | epsilon
+
+command:          simple_command
+                | shell_command  (redirection)*
+		| function_def
+
+/***** simple_command *****/
+
+simple_command:   (element)+
+
+element:          WORD
+                | redirection
+
+redirection:      [NUMBER] '>' WORD
+                | [NUMBER] '<' WORD
+                | [NUMBER] '>>' WORD
+                | [NUMBER] '<<' WORD
+		| [NUMBER] '<<-' WORD
+
+
+/***** shell_command *****/
+
+shell_command:    '{' compound_list '}'
+                | '(' compound_list ')'
+                | rule_for
+                | rule_while
+                | rule_until
+                | rule_case
+                | rule_if
+
+compound_list:  ('\n')* and_or compound_list' ('&'|';'|'\n') ('\n')*
+
+compound_list':  (';'|'&'|'\n') ('\n')* and_or compound_list'
+		 | epsilon
+
+rule_for:        FOR WORD ('\n')* [IN (WORD)+ (';'|'\n') ('\n')*] do_group
+
+rule_while:      WHILE compound_list do_group
+
+rule_until:      UNTIL compound_list do_group
+
+do_group:        DO compound_list DONE
+
+#rule_case:            CASE WORD ('\n')* IN ('\n')* [case_clause] ESAC
+
+#case_clause:	 pattern (';;' pattern)* [;;]
+
+#pattern:	 ['('] WORD ('|' WORD)* ')' ( ('\n')* | compound_list )
+
+rule_if:         IF compound_list THEN compound_list [else_clause] FI
+
+else_clause:     ELSE compound_list
+               | ELIF compound_list THEN compound_list [else_clause]
+
+
+/***** function_def *****/
+
+function:        ['function'] WORD '(' ')' ('\n')* shell_command (redirection)*

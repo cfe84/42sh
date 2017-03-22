@@ -1,0 +1,6 @@
+#076
+#Commande sur plusieurs lignes avec quotes et erreurs
+
+echo "\
+toto
+"\

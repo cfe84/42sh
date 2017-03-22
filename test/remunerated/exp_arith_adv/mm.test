@@ -1,0 +1,12 @@
+#1050
+#minus minus test
+
+a=42
+echo $((a--))
+echo $((a))
+echo $((--a))
+echo $((--------------a))
+echo $((a-------))
+echo $((--a--))
+echo $(( a -- - -- a))
+echo $(( -- a - -- a))

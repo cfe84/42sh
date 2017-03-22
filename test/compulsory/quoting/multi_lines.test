@@ -1,0 +1,5 @@
+#073
+#Commande sur plusieurs lignes
+
+echo bli\
+bla

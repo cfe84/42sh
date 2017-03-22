@@ -1,0 +1,4 @@
+#086
+#Echoes separated with ||
+
+echo tata || echo toto||echo titi

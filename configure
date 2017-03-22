@@ -1,0 +1,45 @@
+#!/bin/sh
+
+PORTFILE=./config.h
+
+OS=`uname -s`
+case $OS in
+   *BSD*)
+      MAKE=make
+      CC="/usr/bin/gcc"
+      CFLAGS="-Wall -W -Werror -ansi -pedantic -O"
+      ;;
+   Sun*)
+      MAKE=gmake
+      CC="/usr/local/bin/gcc"
+      CFLAGS="-Wall -W -Werror -ansi -pedantic -O -m64 -DSUN"
+      SFL="-lnsl -lsocket"
+      ;;
+   OSF*)
+      MAKE=make
+      CC="/bin/cc"
+      CFLAGS="-w2 -std1 -warnprotos -DALPHA"
+      ;;
+   Linux)
+      MAKE=make
+      CC="gcc"
+      CFLAGS="-Wall -W -Werror -pedantic -O -fomit-frame-pointer"
+      ;;
+   HP-UX*)
+      MAKE=make
+      CC="/bin/cc"
+      CFLAGS=""
+      ;;
+   *)
+      MAKE=make
+      CC="cc"
+      CFLAGS="-Wall -W -Werror -pedantic -O -fomit-frame-pointer"
+      ;;
+esac
+
+echo "CC=$CC"  > Makefile.rules
+echo "CFLAGS=$CFLAGS" >> Makefile.rules
+echo "LDFLAGS= -Llibs/ -lmy_fnmatch_`uname -m`-`uname -s`" >> Makefile.rules
+echo "OS=$OS" >> Makefile.rules
+echo "MAKE=$MAKE" >> Makefile.rules
+echo "SFL=$SFL" >> Makefile.rules

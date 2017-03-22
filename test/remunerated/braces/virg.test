@@ -1,0 +1,4 @@
+#1005
+#only a coma between the braces
+
+echo to{,}

@@ -1,0 +1,4 @@
+#015
+#Multiple commands on a single line
+
+echo toto; echo "maman est malade"; echo 'tutu est une pute'

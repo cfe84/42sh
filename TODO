@@ -1,0 +1,88 @@
+******************************
+* TODO file for 42sh project *
+******************************
+
+3 - Partie obligatoire
+======================
+
+3.0
+
+* gerer
+\
+"
+
+* ajouter &&, || dans les stops
+
+3.1 Entree utilisateur
+- Fix interactive mode problems (blank lines, \\n with different prompt)
+- Fix non-interactive mode problems (Skip \\n in buffering files)
+
+3.2 Redirections
+- Detect redirections
+- Creates files if necessary
+- Changes output and input file descriptor
+
+3.3 Execution de commandes
+- Fork
+- Pipe recognition with simultaneous launched command from right to left
+- Bang operator in the begin of the line
+- Execution of the rest of the line in function of the operator
+(no $PATH in this part, but modu;ary conception for future implementation)
+
+3.4 Quoting
+- In expanser module, check for inhibited caracter
+- Remove quotes
+
+3.5 Expansion des chemins
+- Check for the possible paths in the file system
+
+3.6 Builtins simples
+- Simple Builtins implemetation with options
+
+3.7 Respect de la grammaire
+- Line continuation (\\n)
+
+4 - Partie remuneree
+====================
+
+4.1 Builtin shopt
+- Shell options
+- set, unset
+- xpg_echo
+
+4.2 Expansion des accolades "braces"
+- Tree posibilities when more than one braces interval
+
+4.3 Expansion du tilde
+- Check for tildes in ast
+
+4.4 Affectation et expansion de variables simples
+- Detection of the vars in expression and command
+- Substitution
+- Affectation
+
+The work and tasks for the followings options have not yet been decided :
+
+4.5 Expansion des expressions arithmetiques
+4.7 Expansion des commandes
+4.8 Expansion avancee des chemins
+4.9 Expansion des chemins mode "challenge"
+4.10 Sous-shell
+4.11 "Inclusion" de fichiers
+4.12 Les alias
+4.13 Les variables du shell
+4.14 "Readline"
+4.15 Controle de processus ("job control")
+4.16 Langage de script de base
+4.17 Langage de script avance (boucle)
+4.19 Les fonctions
+4.21 Documentation
+4.22 Completion de base
+
+4.23 Builtin ftp
+- Built of a library based on my-ftpd project
+
+4.24 Option de notre choix
+- Configuration file
+- History file ?
+- Bash settings import system ?

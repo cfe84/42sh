@@ -1,0 +1,4 @@
+#047
+#Pipe colle a gauche
+
+echo toto| grep toto

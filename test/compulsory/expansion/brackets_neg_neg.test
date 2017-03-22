@@ -1,0 +1,4 @@
+#110
+#Crochets : negation et pt d'exclamation
+
+ls /[!-!-z]*

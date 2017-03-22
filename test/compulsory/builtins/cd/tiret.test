@@ -1,0 +1,8 @@
+#004
+#Cd tiret
+
+pwd
+cd ~
+pwd
+cd -
+pwd

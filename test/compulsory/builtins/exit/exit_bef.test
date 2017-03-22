@@ -1,0 +1,6 @@
+#025
+#Sortie au debut de la sequence
+
+exit 0
+ls
+cat toto

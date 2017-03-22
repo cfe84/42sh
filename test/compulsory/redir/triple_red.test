@@ -1,0 +1,5 @@
+#068
+#Triple redirection
+
+echo tata >>> titi
+rm titi

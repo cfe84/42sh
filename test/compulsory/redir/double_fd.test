@@ -1,0 +1,5 @@
+#052
+#Double redirection dans un descripteur
+
+cat my_ass 2>&1
+cat my_ass 2>>&1

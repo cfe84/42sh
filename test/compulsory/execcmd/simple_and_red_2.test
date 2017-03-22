@@ -1,0 +1,4 @@
+#114
+#Simple and : Error 2
+
+echo toto &; echo toto

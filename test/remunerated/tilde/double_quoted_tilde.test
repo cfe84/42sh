@@ -1,0 +1,5 @@
+#1021
+#double quoted tilde
+
+echo "~
+"

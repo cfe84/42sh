@@ -1,0 +1,5 @@
+#1057
+#unmatched ) caracter
+
+var=$(echo salut
+echo $ var

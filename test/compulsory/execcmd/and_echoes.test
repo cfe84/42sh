@@ -1,0 +1,4 @@
+#085
+#Echoes separated with &&
+
+echo toto && echo tata && echo tutu && echo my is is some chicken

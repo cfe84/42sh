@@ -1,0 +1,10 @@
+#037
+#Champs d'une base
+
+echo "olivier:delestre:18:villejuif" > data.db
+echo "enguerrand:raymond:21:paris" >> data.db
+echo "charles:feval:20:paris" >> data.db
+echo "gilles:durget:22:le kremlin bicetre" >> data.db
+echo "olivier:grosliere:20:paris" >> data.db
+cat data.db | grep olivier | cut -d ':' -f 2
+rm data.db

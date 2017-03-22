@@ -1,0 +1,5 @@
+#1036
+#var inside var
+
+a=0
+echo $(($a - 42))

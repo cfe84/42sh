@@ -1,0 +1,6 @@
+#1031
+#multiple unset on a line
+
+var=42
+unset var var var var
+echo $var

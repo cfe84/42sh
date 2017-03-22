@@ -1,0 +1,5 @@
+#1053
+#expansion with dollar
+
+var=$( echo salut )
+echo $var

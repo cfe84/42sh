@@ -1,0 +1,5 @@
+#067
+#Redirection sortie d'erreur avec fichier special
+
+find /root/ 2>\>
+rm \>

@@ -1,0 +1,4 @@
+#042
+#Beaucoup de pipes avec cat
+
+find /dev | grep b | cat | cat | cat | cat | cat | cat | cat | cat | cat | cat |cat

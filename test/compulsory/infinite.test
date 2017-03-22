@@ -1,0 +1,4 @@
+#000
+#Boucle infinie
+
+while [ 0 -le 1 ]; do echo toto; done

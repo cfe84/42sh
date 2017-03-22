@@ -1,0 +1,5 @@
+#1032
+#expansion of variable with braces
+
+var=2
+echo ${var}

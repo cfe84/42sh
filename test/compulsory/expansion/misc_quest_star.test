@@ -1,0 +1,4 @@
+#106
+# Points d'interrogation et etoile
+
+ls /d*?*

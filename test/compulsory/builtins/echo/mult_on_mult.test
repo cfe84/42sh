@@ -1,0 +1,9 @@
+#013
+#Multiple commands on multiple lines
+
+echo toto
+echo ta mere est gentille
+echo to pere est sympa
+echo "ta mere"
+echo "ta pere"
+echo 'ton mere'

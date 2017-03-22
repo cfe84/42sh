@@ -1,0 +1,7 @@
+#1026
+#define var and unset var
+
+var="toto"
+echo $var
+unset var
+echo $var

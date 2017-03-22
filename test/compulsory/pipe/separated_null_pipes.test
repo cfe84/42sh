@@ -1,0 +1,4 @@
+#043
+#Pipes separes par un espace
+
+echo toto | | grep titi

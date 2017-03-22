@@ -1,0 +1,4 @@
+#115
+#Triple pipe
+
+echo ||| echo toto

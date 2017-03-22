@@ -1,0 +1,6 @@
+#1028
+#double definition of same var
+
+var="salut"
+var="bonjour"
+echo $var

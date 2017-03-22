@@ -1,0 +1,6 @@
+#056
+#Simple indirection
+
+echo "ta mere est une pouf" > TEST
+cat < TEST
+rm TEST

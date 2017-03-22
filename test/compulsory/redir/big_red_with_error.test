@@ -1,0 +1,4 @@
+#051
+#Big redirection with errors
+
+ypcat passwd >> <

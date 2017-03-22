@@ -1,0 +1,9 @@
+#1013
+#inequal multiple braces on multiple lines
+
+echo {
+{
+to
+,
+ti
+}

@@ -1,0 +1,4 @@
+#119
+#Double pipe
+
+echo toto || echo toto |;

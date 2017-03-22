@@ -1,0 +1,21 @@
+echo to{ti,ta}
+echo "`expr 2 ; echo $(echo ")")`"
+echo "`expr 2 + $(echo "2")`"
+echo "`expr 2 + $("echo 2")`"
+echo "`expr 2 + 2`"
+i=2; echo "$i/2"
+i=2; echo "${i}/2"
+echo "bl$("bli")ai"
+echo "$(echo ")")"
+i=234a85; echo "${i}/2"
+
+/* WITH ERRORS */
+echo "to${ti,ta}"
+
+--------------------------------
+Add of Friday 7th January 18h23, Olivier G.
+echo '$(echo "toto")'
+
+--------------------------------
+Add of Friday 7th January 19h03, Olivier G.
+echo '$("`\'`"`\'`")'

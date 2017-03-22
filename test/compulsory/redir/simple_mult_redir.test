@@ -1,0 +1,6 @@
+#063
+#Redirections simples de plusieurs sorties standard
+
+echo toto > titi 2> tutu 3> tata 4>&1
+rm titi toto tutu tata
+

@@ -1,0 +1,4 @@
+#062
+#Redirection simple dans un descripteur avec erreur
+
+find . >&12

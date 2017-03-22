@@ -1,0 +1,8 @@
+#1018
+#double tilde
+
+echo ~~
+#1019
+#double tilde expansion
+
+echo ~/~

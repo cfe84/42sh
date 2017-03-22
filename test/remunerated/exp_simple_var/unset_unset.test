@@ -1,0 +1,8 @@
+#1027
+#unset two times
+
+var="this is a var"
+echo $var
+unset $var
+unset $var
+echo $var

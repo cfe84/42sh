@@ -1,0 +1,4 @@
+#1060
+#composite exec in a subshell
+
+`(echo ls ; echo ~)`

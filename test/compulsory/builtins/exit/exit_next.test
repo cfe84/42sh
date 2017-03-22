@@ -1,0 +1,7 @@
+#026
+#Exit en fin de sequence
+
+echo tata
+echo titi
+ls
+exit 0

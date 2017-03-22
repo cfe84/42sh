@@ -1,0 +1,5 @@
+#066
+#Redirection sortie d'erreur
+
+find /root/ 2>
+rm tutu

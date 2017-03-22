@@ -1,0 +1,4 @@
+#060
+#Simple redirection in a file descriptor
+
+cat my_ass 2>&1

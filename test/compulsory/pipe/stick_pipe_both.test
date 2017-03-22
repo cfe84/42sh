@@ -1,0 +1,4 @@
+#046
+#Pipe colle des deux cotes
+
+echo toto|grep tutu

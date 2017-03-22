@@ -1,0 +1,5 @@
+#009
+#Echo -e option
+
+echo -e '\t'e'\a'w
+echo '\t'e'\a'w -e

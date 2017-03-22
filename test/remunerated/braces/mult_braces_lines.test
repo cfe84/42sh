@@ -1,0 +1,12 @@
+#1012
+#multiple braces on multiple lines
+
+echo {
+{
+{
+ti
+,
+tu
+}
+}
+}

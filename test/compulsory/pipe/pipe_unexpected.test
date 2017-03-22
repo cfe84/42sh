@@ -1,0 +1,4 @@
+#121
+#Pipe inattendu
+
+ls | ls ; ls | ls || ls ;

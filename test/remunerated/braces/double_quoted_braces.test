@@ -1,0 +1,4 @@
+#1015
+#double quoted braces
+
+ echo to"{ti,tu}"

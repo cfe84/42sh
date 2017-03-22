@@ -1,0 +1,4 @@
+#1063
+#test $UID var
+
+echo $UID

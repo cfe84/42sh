@@ -1,0 +1,31 @@
+struct			s_redir
+{
+  int			fd;
+  int			type;
+  char			*redir;
+  struct s_redir	*next;
+};
+
+#define TYPE_COMMAND 1
+#define TYPE_NUMBER  2
+#define TYPE_FOR     3
+etc.
+
+/**
+ ** type: stores the type of the node. (TYPE_*)
+ ** cmd: command and arguments
+ ** cond: condition.
+ ** not: invert the return value
+ */
+struct			s_ast
+{
+  int			type;
+  struct s_ast		*left;
+  struct s_ast		*right;
+  struct s_ast		*cond;
+  struct s_redir	*redir;
+  struct s_redir	*indir;
+  char			**cmd;
+  int			nargs;
+  int			not;
+};

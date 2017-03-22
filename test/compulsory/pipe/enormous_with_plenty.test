@@ -1,0 +1,6 @@
+#039
+#Un grand pipe, avec plein de pipelines
+
+ypcat passwd | cat | cat | cat | cat | cat | cat |\
+grep a1 | cat | cat | cat | cat |\
+cut -d ':' -f 1

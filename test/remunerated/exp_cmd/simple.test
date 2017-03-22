@@ -1,0 +1,5 @@
+#1052
+#simple cmd expansion
+
+var=`echo toto`
+echo $var

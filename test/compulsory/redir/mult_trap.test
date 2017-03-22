@@ -1,0 +1,9 @@
+#058
+#Multiple redirections and indirections
+
+echo "tty is a bitch" > toto
+echo "tty is a bitch 2" > tutu
+cat > tata >> tete < toto < tutu
+cat tata
+cat tete
+rm tata tete toto tutu

@@ -1,0 +1,6 @@
+#1064
+#test $RANDOM var
+
+echo $RANDOM
+echo $RANDOM
+echo $RANDOM

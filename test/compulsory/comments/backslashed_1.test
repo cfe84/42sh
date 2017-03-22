@@ -1,0 +1,4 @@
+#028
+#Commentaire backslashe
+
+echo tata \# toto

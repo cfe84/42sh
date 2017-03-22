@@ -1,0 +1,4 @@
+#088
+#Commandes separees par des ||, Premier en defaut
+
+cat /usr/bin/passwd || echo totto || echo tata

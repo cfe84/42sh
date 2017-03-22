@@ -1,0 +1,4 @@
+#045
+#Pipeline multiple
+
+ls / | grep e | grep v
