@@ -1,6 +1,6 @@
 CC=/usr/bin/gcc
 CFLAGS=-Wall -W -Werror -std=gnu99 -g
-LDFLAGS= -Llibs/ 
+LDFLAGS= -Llibs/ -lmy_fnmatch_armv7l-Linux
 OS=NetBSD
 MAKE=make
 SFL=
